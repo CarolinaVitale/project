@@ -9,7 +9,7 @@ const Navigation = () => {
             <Navbar.Brand style={{ marginLeft: '30px' }} href="#home">Project</Navbar.Brand >
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="justify-content-end">
-                <Nav className="mr-auto">
+                <Nav className="mr-auto" style={{ marginRight: '30px' }}>
                     <Link className="nav-link" to="/">Xxx Xxxx</Link>
                     <Link className="nav-link" to="/">Xxx Xxxxx</Link>
                 </Nav>
