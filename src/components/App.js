@@ -1,9 +1,26 @@
-import './App.css';
+import './App.css'
 
-function App() {
-  return (
-    <h1>Hello world!</h1>
-  );
+import { Component } from 'react'
+
+import Navigation from './layout/Navigation/Navigation'
+
+class App extends Component {
+
+  constructor() {
+    super()
+    this.state = {
+    }
+  }
+
+  render() {
+
+    return (
+      <>
+        <Navigation />
+      </>
+    )
+  }
 }
 
-export default App;
+
+export default App
