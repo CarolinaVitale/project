@@ -6,7 +6,7 @@ const Navigation = () => {
 
     return (
         <Navbar bg="light" variant="light" expand="md" style={{ marginBottom: '30px' }}>
-            <Navbar.Brand style={{ marginLeft: '30px' }} href="#home">Project</Navbar.Brand >
+            <Navbar.Brand style={{ marginLeft: '30px', color: 'gray' }} href="#home">Project</Navbar.Brand >
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="justify-content-end">
                 <Nav className="mr-auto" style={{ marginRight: '30px' }}>
