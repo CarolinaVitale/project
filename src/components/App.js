@@ -1,26 +1,15 @@
 import './App.css'
-
-import { Component } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Navigation from './layout/Navigation/Navigation'
 
-class App extends Component {
+function App() {
 
-  constructor() {
-    super()
-    this.state = {
-    }
-  }
-
-  render() {
-
-    return (
-      <>
-        <Navigation />
-      </>
-    )
-  }
+  return (
+    <>
+      <Navigation />
+    </>
+  )
 }
 
-
-export default App
+export default App;
